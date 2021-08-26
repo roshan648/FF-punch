@@ -1,0 +1,141 @@
+body{
+	font-family: "HelveticaNeue";
+	color: #454545;
+	overflow-x: hidden;
+	background-color: #f8f8f8;
+}
+a:focus, a:visited, a:hover{
+	text-decoration:none;
+	color: #c67d06;
+	outline:none;
+}
+input:focus, button:focus{
+	outline: none;
+}
+h1, h2, h3, h4, h5, h6{
+	margin: 0px;
+	padding:10px 0px;
+}
+h1{
+	font-size: 28px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #383838;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    text-shadow: 2px 2px 1px #aca1a1;
+}
+
+h2{
+	font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #080808;
+}
+h3{
+	font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #080808;
+}
+h4{
+	font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #080808;
+}
+h5{
+	font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    color: #080808;
+}
+
+.kotak{
+	display: table;
+    border-collapse: collapse;
+    border-spacing: 0;
+    max-width: 90%;
+    margin: 10px auto;
+	background-color: #dfdfdf;
+}
+.kotak .row{
+    display: table-row;
+}
+.kotak .informasi{
+    display: table-cell;
+    border: 1px solid #f6f6f6;
+    border-width: thin;
+    padding: 8px;
+    text-align: center;
+}
+
+<!--- css klo dibuka di hp --->
+@media screen and (max-width: 1070px){
+	.rowwidth{
+		width: 100%;
+		padding: 0px 15px;
+	}
+}
+@media screen and (max-width: 768px){
+	.fixed-navbar{
+		float: left;
+	}
+	.nav-menu{
+		border: 1px solid #ccc;
+	}
+	.nav-menu-destop{
+		margin: 7.5px -6px;
+	}
+	.sub-menu{
+		display: block;
+		position: static;
+		background: transparent;
+		margin-left: 15px;
+	}
+	.ver-item
+	{
+		margin: 10px 0px;
+	}
+	img
+	{
+		width:100%;
+		height:auto;
+	}
+
+}
+@media screen and (max-width: 480px){
+	.sub-menu{
+		width: auto;
+		border: none;
+	}
+}
+@media (min-width: 1024px){
+	.ver-item
+	{
+		display: inline-block;
+	    width: 245px;
+	    margin: 0px 10px 10px 0px;
+	}
+}
+@media (min-width: 1025px){
+	.ver-item:nth-child(3n+3)
+	{
+		margin-right: 0;
+	}
+	.left-home
+	{
+		width: 28%;
+	}
+	.right-home
+	{
+		width: 70%;
+		margin-left: 20px;
+	}
+	.content-post
+	{
+	width: 70%;
+    margin-right: 20px;
+    overflow: hidden;
+	}
+}

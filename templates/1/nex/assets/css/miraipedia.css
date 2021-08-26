@@ -1,0 +1,393 @@
+body {
+    text-align: center;
+    display: block;
+    margin: auto;
+    background: url(https://ff.garena.com/statics/ff/images/pop/20180902.jpg) no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "miraipedia";
+    src: url(../fonts/idhaam69.ttf);
+}
+
+.miraipedia {
+    width: 100%;
+    display: block;
+}
+
+hr.garis {
+    width: 30%;
+    display: block;
+    margin: 40px auto;
+    border: none;
+    border-top: 3px solid #000;
+}
+
+.txt-landingpage {
+    font-family: "miraipedia";
+    display: block;
+    margin: 5px auto 20px auto;
+    padding: 2px;
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 3px 1px #000;
+}
+
+.contentmirai {
+    width: 100%;
+    margin: auto;
+    padding: none;
+}
+
+.content-txt {
+    font-family: "miraipedia";
+    width: 50%;
+    display: block;
+    margin: 10px auto 15px auto;
+    padding: 10px;
+    background-color: rgba(255,255,255, 0.7);
+    border-radius: 10%;
+    font-size: 1.4em;
+    color: #000;
+    letter-spacing: 1px;
+}
+    
+.img-contentmirai {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 10px auto 20px auto;
+}
+    
+.txt-contentmirai {
+    font-family: "miraipedia";
+    display: block;
+    margin: 5px auto 20px auto;
+    padding: 2px;
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 3px 1px;
+}
+
+.reward-mirai {
+    display: inline-block;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ffff;
+    border-radius: 10%;
+}
+
+.img-reward {
+    width: 250px;
+    display: block;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.img-reward:hover {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+.btn-contentmirai {
+    font-family: "miraipedia";
+    width: 120px;
+    height: 40px;
+    display: block;
+    margin: 10px auto;
+    padding: none;
+    background-color: rgb(230, 229, 229);
+    border: 3px solid rgb(58, 58, 58);
+    border-radius: 10%;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-contentmirai:hover {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(58, 58, 58);
+}
+
+.idhaam69 {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    background-color: rgba(0,0,0, 0.8);
+    z-index: 99;
+    text-align: center;
+}
+
+.miraipedia-confirm {
+    width: 20%;
+    height: 100px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 50%;
+    right: 0;
+    margin: auto;
+    padding: 15px;
+    background-color: #fff;
+    border: 4px solid #fff;
+}
+
+.txt-confirm {
+    font-family: "miraipedia";
+    display: block;
+    padding: 10px;
+}
+
+#idhaam69 {
+    display: inline-block;
+}
+
+.login1 {
+    width: 8%;
+    height: 80px;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 10%;
+}
+
+.login1:hover {
+    opacity: 0.8;
+}
+
+.txt-login1 {
+    font-family: "miraipedia";
+    display: block;
+    margin: -10px auto 10px auto;
+    padding: 2px;
+    font-size: 1em;
+    color: #000;
+}
+
+.btn-login1 {
+    display: block;
+    margin: -2px auto;
+    padding: none;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.img-button {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: auto;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-signin-heading, .form-signin .checkbox {
+    margin-bottom: 0;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.login2 {
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+ 
+.img-login2 {
+    width: 60px;
+    height: 60px;
+    margin: 20px auto;
+    display: block;
+}
+
+.txt-login2 {
+    font-family: "miraipedia";
+    display: block;
+    margin: 20px auto;
+    padding: 2px;
+    font-size: 1.5em;
+    color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+
+body {
+    text-align: center;
+    display: block;
+    background: url(https://wallpapercave.com/wp/wp1937696.jpg) no-repeat;
+}
+    
+.txt-landingpage {
+    font-family: "miraipedia";
+    display: block;
+    margin: 5px auto 20px auto;
+    padding: 2px;
+    font-size: 1em;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 3px 1px #000;
+}
+    
+.contentmirai {
+    width: 100%;
+    display: block;
+}
+
+.content-txt {
+    font-family: "miraipedia";
+    width: 95%;
+    display: block;
+    margin: 10px auto 15px auto;
+    padding: 10px;
+    background-color: rgba(255,255,255, 0.7);
+    border-radius: 7%;
+    font-size: 1.2em;
+    color: #000;
+    letter-spacing: 1px;
+}
+    
+.img-contentmirai {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 5px auto 10px auto;
+}
+    
+.txt-contentmirai {
+    font-family: "miraipedia";
+    display: block;
+    margin: 5px auto 20px auto;
+    padding: 2px;
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 3px 1px;
+}
+
+.reward-mirai {
+    display: inline-block;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ffff;
+    border-radius: 10%;
+}
+
+.img-reward {
+    width: 250px;
+    display: block;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.img-reward:hover {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+.btn-contentmirai {
+    font-family: "miraipedia";
+    width: 100px;
+    height: 30px;
+    display: block;
+    margin: 10px auto;
+    padding: none;
+    background-color: rgb(230, 229, 229);
+    border: 3px solid rgb(58, 58, 58);
+    border-radius: 10%;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-contentmirai:hover {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(58, 58, 58);
+}
+
+.idhaam69 {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    background-color: rgba(0,0,0, 0.8);
+    z-index: 99;
+    text-align: center;
+}
+
+.miraipedia-confirm {
+    width: 80%;
+    height: 100px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 50%;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    border: 4px solid #fff;
+}
+
+.txt-confirm {
+    font-family: "miraipedia";
+    display: block;
+}
+
+.login1 {
+    width: 40%;
+    height: 80px;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 10%;
+}
+}
