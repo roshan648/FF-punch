@@ -1,0 +1,2 @@
+[01-Jul-2020 22:02:14 Asia/Jakarta] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/demopubgmaxs/public_html/pubg-midasbuy/system/check_id.php on line 17
+[01-Jul-2020 22:02:14 Asia/Jakarta] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/demopubgmaxs/public_html/pubg-midasbuy/system/check_id.php on line 18

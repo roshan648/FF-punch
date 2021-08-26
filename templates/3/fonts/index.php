@@ -1,0 +1,1 @@
+Nyari Apa Tolol? 
